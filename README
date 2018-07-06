@@ -1,0 +1,18 @@
+# FILES
+
+* alert.sh      -- checks the situation
+* cleanup.sh    -- cleans the status file
+* crontab_1d    -- runs daily to cleanup
+* crontab_1m    -- runs every minute to gather data
+* graph.pl      -- produces commands for gnuplot
+* index.html    -- represents images on a webpage
+* probe.pl      -- checks the server status
+* send_alert.sh -- sends the alert
+* tg_chat       -- chat ID
+* tg_token      -- bot token
+* update.sh     -- rebuilds PNG files
+ 
+# TODO
+
+* fix all the code (I have no time right now, this version is a draft :c )
+* perform update only on web requests

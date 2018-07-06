@@ -1,0 +1,5 @@
+#!/bin/sh -e
+
+/etc/p5mon/probe.pl >> /etc/p5mon/status
+/etc/p5mon/update.sh
+/etc/p5mon/alert.sh
