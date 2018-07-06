@@ -29,5 +29,7 @@ set key left top
 set grid
 set yr [-1:2]
 set xr [$left:$right]
+set obj rect from 0, graph 0.25 to graph 1, 0.5 fc rgb "#FF0000" fill transparent solid 0.15 noborder behind
+set obj rect from 0, 0.5 to graph 1, 0.75 fc rgb "#00FF00" fill transparent solid 0.15 noborder behind
 plot "status" using 1:2 with linespoints lw 2 lt 6 pt 2 title 'Status'
 EOT
