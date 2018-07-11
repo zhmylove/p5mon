@@ -23,3 +23,5 @@ LAST="$*"
 IFS="$OLDIFS"
 
 [ "00$FIRST" -gt "00$LAST" ] && die Fucked up
+
+[ "00$FIRST" -eq 0 ] && [ "00$LAST" -eq 1 ] && die Fixed
